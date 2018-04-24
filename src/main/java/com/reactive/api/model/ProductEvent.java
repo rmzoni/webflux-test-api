@@ -1,4 +1,4 @@
-package com.wiredbraincoffee.productapiannotation.model;
+package com.reactive.api.model;
 
 import java.util.Objects;
 

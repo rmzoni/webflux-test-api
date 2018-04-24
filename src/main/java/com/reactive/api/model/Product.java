@@ -1,4 +1,4 @@
-package com.wiredbraincoffee.productapiannotation.model;
+package com.reactive.api.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

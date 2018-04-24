@@ -1,6 +1,6 @@
-package com.wiredbraincoffee.productapiannotation.repository;
+package com.reactive.api.repository;
 
-import com.wiredbraincoffee.productapiannotation.model.Product;
+import com.reactive.api.model.Product;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 
 public interface ProductRepository

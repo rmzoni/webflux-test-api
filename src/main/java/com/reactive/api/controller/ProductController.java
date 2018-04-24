@@ -1,8 +1,8 @@
-package com.wiredbraincoffee.productapiannotation.controller;
+package com.reactive.api.controller;
 
-import com.wiredbraincoffee.productapiannotation.model.Product;
-import com.wiredbraincoffee.productapiannotation.model.ProductEvent;
-import com.wiredbraincoffee.productapiannotation.repository.ProductRepository;
+import com.reactive.api.model.ProductEvent;
+import com.reactive.api.model.Product;
+import com.reactive.api.repository.ProductRepository;
 import org.reactivestreams.Publisher;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

@@ -1,7 +1,7 @@
-package com.wiredbraincoffee.productapiannotation;
+package com.reactive.api;
 
-import com.wiredbraincoffee.productapiannotation.model.Product;
-import com.wiredbraincoffee.productapiannotation.repository.ProductRepository;
+import com.reactive.api.model.Product;
+import com.reactive.api.repository.ProductRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.wiredbraincoffee.productapiannotation;
+package com.reactive.api;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
