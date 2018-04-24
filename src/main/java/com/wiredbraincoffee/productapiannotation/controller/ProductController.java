@@ -3,6 +3,7 @@ package com.wiredbraincoffee.productapiannotation.controller;
 import com.wiredbraincoffee.productapiannotation.model.Product;
 import com.wiredbraincoffee.productapiannotation.model.ProductEvent;
 import com.wiredbraincoffee.productapiannotation.repository.ProductRepository;
+import org.reactivestreams.Publisher;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -36,8 +37,8 @@ public class ProductController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public Mono<Product> saveProduct(@RequestBody Product product) {
-        return repository.save(product);
+    public Flux<Product> saveProduct(@RequestBody Publisher<Product> products) {
+        return repository.saveAll(products);
     }
 
     @PutMapping("{id}")
